@@ -1,0 +1,17 @@
+//
+// Created by marij on 23-1-2024.
+//
+
+#ifndef DNA_SEQUENCING_SUBSTITUTIONMATRIX_H
+#define DNA_SEQUENCING_SUBSTITUTIONMATRIX_H
+
+
+ enum SubstitutionMatrix {
+    DEFAULT,
+    PAM120,
+    PAM1,
+    PAM500,
+};
+
+
+#endif //DNA_SEQUENCING_SUBSTITUTIONMATRIX_H

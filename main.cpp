@@ -1,0 +1,31 @@
+#include <iostream>
+#include "NWAlgo.h"
+
+using namespace std;
+int main()
+{
+    cout << "welcome \n";
+
+    string sequence1 = "MTEITAAMVKELRESTGAGMMDCKNALSETNGDFDKAVQLLREKGLGKAAKKADRLAAEGDVVTV"
+                       "MGINFRCPKQYEHMTELLRKQALGDMVLDNEMARALEKSSGEPGQTSENVNRMVETPLGNPKAN"
+                       "RPFLVVGLHRSSELEVYATVCGSRIAVVVGDDLRSIQHPKFAGPLERFVADAVLKVVDNAEET"
+                       "AKMPWHTLNVTADAVKACLEKVPDDVDEYLECCKCGKAFSQLEDDNADLAWLVYKGYTHL";
+    string sequence2 = "MDSRIRVGKDIPADLIEGKPDIILHVTKKSKYGLPVCIGEAILTKAVRVAKDPDAISLIEAGAN"
+                       "AVVTAKTNTTNVPTLVEVSKLKRCLPGLRAENIPKEMKASEDLTTEEEAKKNIKSTLNRDV"
+                       "KIRVIERDGDVILAVPPNLTHIKKVVEEVSDFGVDVAEAFVTVLEHLTDGSVTVNPPAARI"
+                       "KEAAKHLDEAGIVVPYVVGGTMPTVELAVGSAVAALDSRKKVLIGGGDSHTVTVPARTVES"
+                       "VNLMAIQKVAEEHPGLKDELFVDSRIRNLTVKYGNYDAVLANVLKIDAAEKVGLAEKTRRE";
+
+//    string sequence1 = "THEFASTCATS";
+//    string sequence2 = "THEFATMAN";
+
+    int gap_penalty = -4;
+    int mismatch_penalty = -1;
+    NWAlgo algo{sequence1, sequence2, gap_penalty, mismatch_penalty, DEFAULT};
+    algo.help();
+    algo.run();
+    algo.printMatrix();
+
+    return 0;
+}
+

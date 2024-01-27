@@ -1,0 +1,3 @@
+C:/Users/marij/CLionProjects/DNA sequencing/cmake-build-debug/CMakeFiles/DNA_sequencing.dir
+C:/Users/marij/CLionProjects/DNA sequencing/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/marij/CLionProjects/DNA sequencing/cmake-build-debug/CMakeFiles/rebuild_cache.dir
