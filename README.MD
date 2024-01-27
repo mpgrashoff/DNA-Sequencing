@@ -1,6 +1,4 @@
-Certainly! Here's a quick README.md based on the provided information:
 
----
 
 # DNA Sequencing Project
 
